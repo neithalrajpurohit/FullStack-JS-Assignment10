@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background-image: url("./images/retro-living-room-interior-design\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0 5%;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+nav .nav-items {
+    flex: 3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+.brand-img {
+    flex: 0.5;
+    margin: auto;
+}
+
+.nav-logo {
+    display: block;
+}
+
+nav p,
+i {
+    margin-top: 1rem;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+
+.col-1 h1 {
+    font-size: 75px;
+    flex: 1;
+    align-items: flex-start;
+    width: 60%;
+    position: relative;
+    top: 8.5rem;
+    left: 4rem;
+    color: white;
+}
+
+.line {
+    background-color: white;
+    position: absolute;
+    top: 8rem;
+    left: 20rem;
+    height: 1px;
+    width: 1100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    height: 50vh;
+}
+
+.container .col-1 h1 {
+    font-size: 3.4rem;
+}
+
+.container .col-1 button {
+    background-color: transparent;
+    border: 2.9px solid #FFFFFF;
+    color: inherit;
+    border-radius: 40px;
+    padding: 14px 55px;
+    cursor: pointer;
+    margin-top: 270.9px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 3rem;
+}
+
+.container .col-2 {
+    position: relative;
+}
+
+.container .col-2 .square {
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-bottom: 20px;
+    position: absolute;
+    right: 0px;
+    width: 250px;
+    padding: 10px 20px;
+    height: 135px;
+}
+
+.container .col-2 .square:last-child {
+
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-bottom: 20px;
+    position: absolute;
+    right: 0px;
+    width: 250px;
+    padding: 10px 20px;
+    height: 150px;
+}
+
+.container .col-2 .square:nth-child(1) {
+    right: 100px;
+    top: -150px;
+}
+
+.container .col-2 .square:nth-child(2) {
+    right: 500px;
+    top: 100px;
+}
+
+.container .col-2 .square:nth-child(1) .icon {
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 80px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container .col-2 .square:nth-child(1) .icon i {
+    font-size: 1.6rem;
+}
+
+.container .col-2 .square:nth-child(2) .icon {
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 80px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container .col-2 .square:nth-child(2) .icon i {
+    font-size: 1.6rem;
+}
+
+.square:first-child .circle-line {
+    position: absolute;
+    height: 70px;
+    width: 2px;
+    background-color: #FFFFFF;
+    top: 155px;
+    left: 220px;
+}
+
+.square:last-child .circle-line {
+    position: absolute;
+    height: 70px;
+    width: 2px;
+    background-color: #FFFFFF;
+    right: -36px;
+    top: 20px;
+    transform: rotate(-90deg);
+}
+
+.circle-line .circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    bottom: 0;
+    left: -8px;
+}
