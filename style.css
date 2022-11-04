@@ -146,6 +146,8 @@ i {
 
 .container .col-2 .square:nth-child(1) .icon i {
     font-size: 1.6rem;
+    color: black;
+
 }
 
 .container .col-2 .square:nth-child(2) .icon {
@@ -162,7 +164,9 @@ i {
 }
 
 .container .col-2 .square:nth-child(2) .icon i {
+    display: block;
     font-size: 1.6rem;
+    color: black;
 }
 
 .square:first-child .circle-line {
@@ -192,4 +196,53 @@ i {
     background-color: #FFFFFF;
     bottom: 0;
     left: -8px;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width:1039px) {
+
+    .nav-items {
+        display: none !important;
+    }
+
+    .nav-phone-icon {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:1048px) {
+
+    .square {
+        margin-top: 14rem;
+    }
+
+    .container .col-1 h1 {
+        font-size: 2.4rem;
+        text-align: center;
+    }
+
+    .line {
+        display: none;
+    }
+}
+
+@media screen and (max-width:771px) {
+    .container .col-2 .square {
+        height: 125px;
+        width: 200px;
+    }
+
+    .container .col-2 .square:nth-child(2) {
+        height: 125px;
+        width: 200px;
+
+    }
+
+    .logo {
+        margin-left: 0rem;
+    }
 }
